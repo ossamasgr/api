@@ -128,4 +128,4 @@ def getresponse():
     # Return 201 CREATED
     
 if __name__ == "__main__":
-    api.run(api.run(host='0.0.0.0' ,threaded = True, debug = True))
+    api.run()
